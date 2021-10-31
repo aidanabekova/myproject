@@ -1,5 +1,4 @@
 
-
 class Human:
     def __init__(self, name, age, height, gender):
         self.name = name
@@ -31,17 +30,17 @@ class Programmer(Human):
         print("yeap, i can freely use laptop like a God")
 
     def __str__(self):
-        return f'Language: {self.language}\n' \
+        return super().__str__()+f'Language: {self.language}\n' \
                f'Fast Typing: {self.fast_typing}\n' \
                f'Logic Thinking: {self.logic_thinking}'
 
 human_1 = Human(name="Aidana", age=18, height=170, gender="female")
 human_2 = Human("Aelin", 20, 179, "female")
-
-print(human_1.can_calculate(int(input("First:")), int(input("Second:"))))
-print(human_1)
-print(human_2)
-print(human_2.can_say_hello())
+#
+# print(human_1.can_calculate(int(input("First:")), int(input("Second:"))))
+# print(human_1)
+# print(human_2)
+# print(human_2.can_say_hello())
 
 proger = Programmer(language="Python",
                     fast_typing=True,
