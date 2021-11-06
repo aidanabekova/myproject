@@ -4,6 +4,7 @@ comp = 10
 rnd = 0
 while True:
     rnd += 1
+    print("hfasdkflhj;s")
     print("Кон", rnd)
     if rnd % 2 == 0:
         print("Загадывает comp, ты угадываешь")
