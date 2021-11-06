@@ -33,6 +33,7 @@ print(numbers)
 
 letters.reverse()
 print(letters)
+
 letters[1] = "G"
 letters[7] = "c"
 print(letters)
