@@ -289,18 +289,18 @@ movieListView = parasites + movieListView
 movieListView = wind + movieListView
 
 
-# showMovie = ""
-# for movie in movieListView:
-#     print(movie)
-#     showMovie += movie.name + ", "
-#
-# while 1:
-#
-#     f = input(f"Select a movie({showMovie}): ")
-#     choice(f)
-#     if (f == 'quit'):
-#         print("quit")
-#         break
+showMovie = ""
+for movie in movieListView:
+    print(movie)
+    showMovie += movie.name + ", "
+
+while 1:
+
+    f = input(f"Select a movie({showMovie}): ")
+    choice(f)
+    if (f == 'quit'):
+        print("quit")
+        break
 # 4. 2-ой класс это класс Старбакс в котором пишут имена на кофе
 # 5. Если имя больше 9 символов пишут только 5 символов имени
 # 6. Если имя меньше 5 пишут все символы имени
