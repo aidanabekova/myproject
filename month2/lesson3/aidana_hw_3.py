@@ -282,25 +282,27 @@ parasites = Cinema(name="Parasites", country="South Korea", film_director="Bong 
                    genre="comedy drama, thriller", year_of_issue=2019, ticket=20)
 wind = Cinema(name="Wind", country="South Korea", film_director="Bong Joon Ho",
               genre="comedy drama", year_of_issue=2010, ticket=30)
-#
-# movieListView = shang_chi + kingdom
-# movieListView = twilight + movieListView
-# movieListView = parasites + movieListView
-# movieListView = wind + movieListView
-#
-#
-# showMovie = ""
-# for movie in movieListView:
-#     print(movie)
-#     showMovie += movie.name + ", "
-#
-# while 1:
-#
-#     f = input(f"Select a movie({showMovie}): ")
-#     choice(f)
-#     if (f == 'quit'):
-#         print("quit")
-#         break
+
+
+
+movieListView = shang_chi + kingdom
+movieListView = twilight + movieListView
+movieListView = parasites + movieListView
+movieListView = wind + movieListView
+
+
+showMovie = ""
+for movie in movieListView:
+    print(movie)
+    showMovie += movie.name + ", "
+
+while 1:
+
+    f = input(f"Select a movie({showMovie}): ")
+    choice(f)
+    if (f == 'quit'):
+        print("quit")
+        break
 # 4. 2-ой класс это класс Старбакс в котором пишут имена на кофе
 # 5. Если имя больше 9 символов пишут только 5 символов имени
 # 6. Если имя меньше 5 пишут все символы имени
