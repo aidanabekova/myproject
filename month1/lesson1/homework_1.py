@@ -6,6 +6,6 @@ JB = float(input("Температура в JB: "))
 IK = float(input("Температура на IK:"))
 Talas = float(input("Температура в Таласе:"))
 
-average = ((Osh+Chui+Naryn+Batken+JB+IK+Talas)/7)
+average = (Osh+Chui+Naryn+Batken+JB+IK+Talas)/7
 average = round(average, 2)
 print("Средний показатель температуры по Кыргызстану на сегодня", average, "℃")

@@ -1,4 +1,9 @@
 class Wizard:
+    _artistingo = [
+        "Davinchi",
+        "Van Gogh"
+    ]
+
     def __init__(self, first, last):
         self.first = first
         self.last = last
@@ -11,6 +16,7 @@ class Wizard:
     def add_some():
         summary = 1 + 2
         return summary
+
 
     @property
     def fullname(self):
@@ -27,7 +33,11 @@ class Wizard:
         self.last = None
         print("Fullname deleted!")
 
-    def __str__(self):
+    @classmethod
+    def artist_list(cls):
+        return cls._artistingo
+
+def __str__(self):
         return f"Fullname: {self.first} {self.last}"
 
 
@@ -38,5 +48,8 @@ print(waz.fullname)
 print(waz.emailing())
 waz.first = "Aelin"
 print(waz.fullname)
-del waz.fullname
+#del waz.fullname
 print(waz.fullname)
+print(Wizard.fullname)
+print(Wizard.artist_list())
+print(Wizard.__class__)
