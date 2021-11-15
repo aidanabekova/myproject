@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02ae080b-c8f6-4120-a5e2-268028176b97" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/month2/regularka/hw_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/month2/regularka/result2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/month2/regularka/result3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fsg.py" beforeDir="false" afterPath="$PROJECT_DIR$/fsg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/month1/lesson1/homework_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/month1/lesson1/homework_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/month1/lesson3/homework_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/month1/lesson3/homework_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/month1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/month2/regularka/lesson_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/month2/regularka/lesson_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/month2/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/month2/regularka/MOCK_DATA.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +59,7 @@
       <recent name="$PROJECT_DIR$/month2/lesson1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.lesson_5">
+  <component name="RunManager" selected="Python.hw_5">
     <configuration name="aidana_hw_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,6 +115,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/homework_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hw_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/month2/regularka" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/month2/regularka/hw_5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,34 +207,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main_cards" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/black_jack" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/black_jack/main_cards.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hw_5" />
+        <item itemvalue="Python.fsg" />
         <item itemvalue="Python.lesson_5" />
         <item itemvalue="Python.lesson_4_decorators" />
-        <item itemvalue="Python.fsg" />
         <item itemvalue="Python.aidana_hw_4" />
-        <item itemvalue="Python.main_cards" />
       </list>
     </recent_temporary>
   </component>
