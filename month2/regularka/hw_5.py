@@ -6,22 +6,22 @@
 # 4. В итоге у вас будет 4 файла , каждый со своими данными
 
 # здесь я @ искала
-# import re
-#
-# file_path = "MOCK_DATA.txt"
-# result_file_path = "result2.txt"
-# file_r = open(file_path, mode="r", encoding="Latin-1")
-# results_file = open(result_file_path, mode="w", encoding="Latin_1")
-# my_text = file_r.read()
-#
-# searching = r"[\w+_-]+@[\w+_-]+.[\w.]+"
-# results_all = re.findall(searching, my_text)
-#
-# for item in results_all:
-#     print(item)
-#     results_file.write(item + "\n")
-#
-# print(f"Total: {str(len(results_all))}")
+import re
+
+file_path = "MOCK_DATA.txt"
+result_file_path = "result2.txt"
+file_r = open(file_path, mode="r", encoding="Latin-1")
+results_file = open(result_file_path, mode="w", encoding="Latin-1")
+my_text = file_r.read()
+
+searching = r"[\w+_-]+@[\w+_-]+.[\w.]+"
+results_all = re.findall(searching, my_text)
+
+for item in results_all:
+    print(item)
+    results_file.write(item + "\n")
+
+print(f"Total: {str(len(results_all))}")
 
 # здесь с решеткой штучку искала
 # import re
